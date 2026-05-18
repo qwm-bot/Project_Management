@@ -43,7 +43,7 @@ plt.subplots_adjust(hspace=0.3, wspace=0.3)
 
 # 3. Generating the Matrix of Plots
 # Muted academic palette for Queue Depth groups
-palette = sns.color_palette(["#1b9e77", "#d95f02", "#7570b3"])
+palette = sns.color_palette(["#1b9e77", "#d95f02", "#7570b4"])
 
 for row_idx, metric in enumerate(metrics):
     for col_idx, op in enumerate(ops):

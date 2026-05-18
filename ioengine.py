@@ -82,5 +82,5 @@ fig.legend(handles, labels, loc='upper center', bbox_to_anchor=(0.5, 1.05),
 # 5. 保存并展示
 plt.tight_layout(rect=[0, 0, 1, 0.93]) # 为顶部的图例留出空间
 plt.savefig("IO_Engine_Analysis.pdf", format='pdf', bbox_inches='tight')
-print("可视化文件已保存为: IO_Engine_Analysis.pdf")
+print("IO_Engine_Analysis.pdf")
 plt.show()

@@ -19,7 +19,7 @@ plt.rcParams.update({
     'axes.facecolor': '#F7F8FA',
     'figure.facecolor': 'white',
     'axes.edgecolor': '#D0D0D0',
-    'axes.linewidth': 0.8,
+    'axes.linewidth': 0.75,
     'axes.grid': True,
     'grid.color': '#DADDE2',
     'grid.linestyle': '--',
