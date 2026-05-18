@@ -11,7 +11,7 @@ from pathlib import Path
 # Set up matplotlib for better visualization
 plt.style.use('seaborn-v0_8-darkgrid')
 plt.rcParams['figure.figsize'] = (16, 12)
-plt.rcParams['font.size'] = 10
+plt.rcParams['font.size'] = 20
 
 class FIOResultParser:
     def __init__(self, base_path):

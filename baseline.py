@@ -66,7 +66,7 @@ def draw_bar(labels, values, title, ylabel, filename):
     fig.tight_layout()
     fig.savefig(filename, dpi=300, bbox_inches='tight')
     return fig, ax
-
+# 你标记了一处修改
 # ----------------------------------------------------
 # 图 1：IOPS
 # ----------------------------------------------------

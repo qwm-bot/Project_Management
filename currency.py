@@ -75,7 +75,7 @@ for row_idx, metric in enumerate(metrics):
 handles, labels = axes[0, 0].get_legend_handles_labels()
 fig.legend(handles, labels, title='Queue Depth', loc='upper right', bbox_to_anchor=(0.98, 0.95))
 fig.suptitle('Storage Performance Analysis: Impact of Concurrency (Jobs & Queue Depth)', 
-             fontsize=18, fontweight='bold', y=0.98)
+             fontsize=46, fontweight='bold', y=0.98)
 
 # Set common X-label
 for ax in axes[-1, :]:
