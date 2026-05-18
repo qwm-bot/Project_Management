@@ -7,7 +7,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import numpy as np
 import glob
 from pathlib import Path
-
+# 这里是B2的第一处修改
 # Set up matplotlib for better visualization
 plt.style.use('seaborn-v0_8-darkgrid')
 plt.rcParams['figure.figsize'] = (16, 12)
